@@ -16,14 +16,9 @@ def fection(flowers,n,count):
             return 1
     else:
         return 0 
-"""l=input()
-n=int(l[l.find('n')+2:])
-flowers=l[l.find('[')+1:l.find(']')].split(',')"""       
-flowers = list(map(int,input().split(" ")))
-print("flowers = ",end="")
-print(flowers)
-print("n = ",end="")
-n = int(input())
+l=input()
+n=int(l[-1])
+flowers=l[l.find('[')+1:l.find(']')].split(',')
 count = 0
 if fection(flowers,n,count):
     print("True")
