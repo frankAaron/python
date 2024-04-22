@@ -8,6 +8,7 @@ class student:
         self.__name = name
         self.__age = age
     #获取并修改属性
+    
     @property
     def name(self):
         return self.__name
@@ -18,5 +19,5 @@ class student:
 
     def good_stu(self,class_name):
         print(f"正在学习{class_name}")
-stu1 = student('py',20)      
+stu1 = student('python',20)      
 print(stu1.good)
