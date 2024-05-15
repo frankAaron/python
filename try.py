@@ -9,5 +9,4 @@
 #     print("require:\n", data)
 #     req = conn.send(b"HTTP/1.1 200 ok\r\nserver:aaron\r\n\r\nhello world")
 #     conn.close()
-a = [1, 2, 3, 4]
-print(a[:-3:-1])
+
